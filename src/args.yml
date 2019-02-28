@@ -1,0 +1,18 @@
+name: conhonk
+version: "1.0.0"
+author: Kied Llaentenn @kiedtl
+about: Play a tone by frequency and duration from the console.
+args:
+    - frequency:
+        short: f
+        long: frequency
+        value_name: FREQ
+        help: Set the frequency of the tone to be played.
+        takes_value: true
+
+    - duration:
+        short: d
+        long: duration
+        value_name: TIME
+        help: Set the duration of the tone to be played.
+        takes_value: true
