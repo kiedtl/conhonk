@@ -4,4 +4,9 @@ version = "0.1.0"
 authors = ["Kied Llaentenn @kiedtl"]
 edition = "2018"
 
+[target.'cfg(windows)'.dependencies]
+
 [dependencies]
+winapi = { version = "0.3", features = ["utilapiset"] }
+clap = {version = "2.32", features = ["yaml"]}
+
